@@ -14,7 +14,8 @@ const Card = ({product}) => {
         <div className="card-body">
             <h4 className='text-truncate'>{product.title}</h4>
             <h4 className='text-secondary'>{product.category}</h4>
-            <button className='w-100 rounded' onClick={()=>addToCart(product)}>Add to Cart</button>
+            <h5>{product.price}$</h5>
+            <button className='w-100 rounded mt-1' onClick={()=>addToCart(product)}>Add to Cart</button>
         </div>
     </div>
   )

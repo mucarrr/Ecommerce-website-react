@@ -14,8 +14,8 @@ a:hover{
 }
 
 body {
-  color: rgba(255, 255, 255, 0.87) !important;
-  background-color: #242424 !important;
+  color: black !important;
+  background-color: #85b0bd !important;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
@@ -27,7 +27,7 @@ button{
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #355164;
   cursor: pointer;
   transition: border-color 0.25s;
   color: rgba(255, 255, 255, 0.87);
